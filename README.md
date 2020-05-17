@@ -1,6 +1,3 @@
-#Assignment 6 Report
-
-Name: Jordan Wong, PennKey: jswong, No Partner
 
 ##Routes
 - '/' = Splash page of website
@@ -39,8 +36,3 @@ the frontend html looking a bit neater.
     - using the admin account I have put in - user: admin, password: 123123 (I'm not sure if this option works)
 
 With this you should be able to do whatever you want to see the server's frontend or backend
-
-##Extra Credit
-
-Didn't implement anything that was specifically listed as extra credit on the CIS 192 page, but hopefully you guys can give me some brownie points for putting this together
-on my own ;) - haha jk... unless?
