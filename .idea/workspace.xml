@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b2592e0-eb4f-4a3e-bb35-6eb04f387a1a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aP6jsXOsHMdtTay4Ja1l3EHApz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../autograder" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jswon\PycharmProjects\twitter_clone" />
+      <recent name="C:\Users\jswon\PycharmProjects\twitter_clone\accounts\templates" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b2592e0-eb4f-4a3e-bb35-6eb04f387a1a" name="Default Changelist" comment="" />
+      <created>1586625019854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586625019854</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="719" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586661812037">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="719" y="324" key="#com.intellij.fileTypes.FileTypeChooser/-1920.6.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586661812037" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1588778217552">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="276" key="FileChooserDialogImpl/-1920.6.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588778217552" />
+    <state x="346" y="70" key="SettingsEditor" timestamp="1586633773961">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1643" y="62" key="SettingsEditor/-1920.6.1536.832/0.0.1920.1040@-1920.6.1536.832" timestamp="1586625064256" />
+    <state x="346" y="70" key="SettingsEditor/-1920.6.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586633773961" />
+    <state x="-1395" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1588778169678">
+      <screen x="-1920" y="6" width="1536" height="832" />
+    </state>
+    <state x="-1395" y="282" key="com.intellij.ide.util.TipDialog/-1920.6.1536.832/0.0.1920.1040@-1920.6.1536.832" timestamp="1588778169678" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/-1920.6.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1588692359851" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586969232042">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.6.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586969232042" />
+  </component>
+</project>

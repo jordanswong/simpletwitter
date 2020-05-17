@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+            <!-- Bootstrap CSS -->
+            <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/slate/bootstrap.min.css" rel="stylesheet" integrity="sha384-G9YbB4o4U6WS4wCthMOpAeweY4gQJyyx0P3nZbEBHyz+AtNoeasfRChmek1C2iqV" crossorigin="anonymous">
+    </head>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="/">simple twitter</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/home">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/myprofile">my profile</a>
+          </li>
+        </ul>
+        <div class="input-group-append">
+            <a href="/logout"><button type="button" class="btn btn-secondary">log out</button></a>
+        </div>
+      </div>
+    </nav>
+
+    <div class = "container mt-5">
+        <div class = "row">
+            <div class = "col-md-3">
+                <br><br><br><br>
+                <a href="/home"><h2  class="text-muted"> twittersphere</h2></a>
+                <br>
+                <a href ="/hashtags"><h2>hashtags</h2></a>
+            </div>
+            <div class = "col-md-6">
+                <h1>hashtags</h1>
+
+                <br><br>
+                {%for tweet in tweets%}
+                <div class="card text-white bg-primary" >
+                  <h5 class="card-header">@{{tweet.author.username}}  <small class="text muted">{{ tweet.created_at|date:"(m/d · g:i a)" }}</small></h5>
+                  <div class="card-body">
+                    <p class="card-text">{{tweet.body}}</p>
+                  </div>
+                </div>
+                <br>
+                {%endfor%}
+                <br><br>
+            </div>
+            <div class = "col-md-3 text-right">
+                <br><br><br><br>
+                {%for hashtag in hashtags%}
+                    {%if hashtag.name == t_name %}
+                    <a href= '/hashtags/{{hashtag.name}}/'><h4 class="text-muted"> #{{hashtag.name}}</h4></a>
+                    {%else%}
+                    <a href= '/hashtags/{{hashtag.name}}/'><h4> #{{hashtag.name}}</h4></a>
+                    {%endif%}
+                    <br>
+                {%endfor%}
+            </div>
+        </div>
+    </div>
+</html>
