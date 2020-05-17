@@ -1,5 +1,5 @@
 
-##Routes
+## Routes
 - '/' = Splash page of website
 
 - 'login/' = Login page of website
@@ -12,7 +12,7 @@
 - 'hashtags/' = Page that shows all tweets but with hashtag filters on the right hand side of the page that can filter by hashtags
 - 'hashtags/<<str:t_name>>/' = Page that user gets to after clicking one of the hashtag filters on the hashtag page - shows only tweets that contain hashtag in URL
 
-##Design Considerations
+## Design Considerations
 
 The biggest factor going into the design of the website was simplicity - I just tried to make everything look as clean and 
 simple as possible (hence the website title of "simple twitter"). To do this, I tried to make the UX as simple as possible to
@@ -27,7 +27,7 @@ Something that I could have done better was using djangos template inheritance, 
 project. Many of the pages have a lot of the same boilerplate html code, so getting rid of a lot of that would have probably been good to keep
 the frontend html looking a bit neater.
 
-##How to start the server
+## How to start the server
 
 1. Use cmd to cd into the root directory of the project, twitter_clone
 2. run python manage.py runserver to get onto the server
