@@ -1,7 +1,15 @@
+## Overview
+
+simpletwitter is a simplified twitter clone created using Django, CSS, and HTML. Its functionalities include:
+
+- Account creation and login capabilities
+- Tweeting and tweet deletion capabilities
+- Hashtag capabilities with hashtag page that allows you to filter through hashtags
+- Page that allows you to see all of the tweets created by all users on the website
 
 ## Routes
-- '/' = Splash page of website
 
+- '/' = Splash page of website
 - 'login/' = Login page of website
 - 'signup/' = Signup page of website
 - 'logout/' = Logout path of website, no associated page
@@ -26,6 +34,13 @@ I didn't have the time to implement
 Something that I could have done better was using djangos template inheritance, which I found out about when I was already done with the bulk of my
 project. Many of the pages have a lot of the same boilerplate html code, so getting rid of a lot of that would have probably been good to keep
 the frontend html looking a bit neater.
+
+## Possible Future Updates
+
+- Like and following capabilites
+- Profile picture and bio capabilities
+- Tweets that include pictures
+- Hashtag links on actual tweets
 
 ## How to start the server
 
